@@ -1,0 +1,27 @@
+export type {
+  AgentDef,
+  BranchPrDetectionResult,
+  ChangedFile,
+  CommitInfo,
+  CoverageFileSummary,
+  CoverageMetricSummary,
+  CoverageSummary,
+  CreateTaskResult,
+  EslintQualityFinding,
+  EslintQualityResult,
+  FileDiffResult,
+  GitIgnoredEntry,
+  ImportableWorktree,
+  MergeResult,
+  MergeStatus,
+  PrCheckBucket,
+  PrCheckRun,
+  PrChecksOverall,
+  PrChecksUpdatePayload,
+  PrReviewDecision,
+  PtyOutput,
+  StepEntry,
+  WorktreeStatus,
+} from '../../electron/ipc/shared-types';
+
+export type { UpdatePhase, UpdateStatus } from '../../electron/ipc/updater';
